@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 40px; /* Adds margin at the bottom of the body */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 140px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 1.1rem;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card ul li a:hover {
+    color: #007BFF;
+}
+
+.favorites-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.favorites-gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.small-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-section {
+    margin-bottom: 40px;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: 50%;
+    height: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-section th, .schedule-section td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.schedule-section th {
+    background-color: #948676;
+}
+
+.schedule-section tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.schedule-section td {
+    font-size: 1.1rem;
+}
